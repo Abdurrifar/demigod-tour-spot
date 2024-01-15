@@ -1,0 +1,18 @@
+/*shared style ****************************** */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+* {font-family: 'Mulish', sans-serif;}
+.text-details-style{
+        color: #5A5A5D;
+    /* color: rgba(19, 19, 24, 0.70); */
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+       
+}
+.text-title-style{
+         color: #131318;
+         font-size: 2.5rem;
+         font-weight: 800;
+}
+/* shared style end************************************* */
