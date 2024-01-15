@@ -13,14 +13,14 @@ body{
 
 .text-title-style{
          color: #131318;
-         font-size: 2.5rem;
+         font-size: 2.1rem;
          font-weight: 800;
 }
 .text-details-style{
-    color: #5A5A5D;
-    text-align: center;
-    font-size: 1rem;
+    color: #dcdcf0;
+    font-size: .6rem;
     font-weight: 400;
+    width: auto;
    
 }
 
@@ -173,8 +173,26 @@ cursor: pointer;
     color: seagreen;
    
     transform: scaleX(2);
-    transition: transform .5s;
+    transition: transform .5s;}
+
+
+/* }start main******************************************************************** */
+.favourite-place{
+    display: flex;
+    justify-content: space-between;
+    gap: 195px;
+    margin-bottom:70px;
+
+
 }
+.favourite-place li{
+    margin: 12px 0;
+}
+.favourite-place img{
+    height: 450px;
+    border-radius: 8px;
+}
+
 @media screen and (max-width:600px) {
 
     .title-style{
