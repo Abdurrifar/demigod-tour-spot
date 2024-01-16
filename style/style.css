@@ -1,7 +1,7 @@
 /*shared style ****************************** */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
 body{
-   height: 1000px;
+   height: 3500px;
     background: #FFF;
 
 }
@@ -13,12 +13,12 @@ body{
 
 .text-title-style{
          color: #131318;
-         font-size: 2.1rem;
+         font-size: 2rem;
          font-weight: 800;
 }
 .text-details-style{
-    color: #dcdcf0;
-    font-size: .6rem;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: .8rem;
     font-weight: 400;
     width: auto;
    
@@ -186,11 +186,135 @@ cursor: pointer;
 
 }
 .favourite-place li{
-    margin: 12px 0;
+    margin: 15px 0;
+    
 }
 .favourite-place img{
     height: 450px;
     border-radius: 8px;
+}
+
+
+/* start destination ********************************** */
+/* .chose-maldives{
+    background-image: url('/Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:300px;
+}
+.chose-indoesia{
+    background-image: url('/Images/Rectangle\ 6.png');
+}
+.chose-srilanka{
+    background-image: url('/Images/Rectangle\ 7.png');
+}
+.chose-north-america{
+    background-image: url('/Images/Rectangle\ 8.png');
+}
+.chose-kasmir{
+    background-image: url('/Images/Rectangle\ 9.png');
+}
+.chose-bangladesh{
+    background-image: url('/Images/Rectangle\ 10.png');
+}
+.chose-bandarban{
+    background-image: url('/Images/Rectangle\ 11.png');
+} */
+.chose-photo p{
+    position: relative;
+ 
+    /* bottom: 150px; */
+    /* left:12%; */
+    color: #f5eaea;
+    font-weight: 800;
+    font-size: 1rem;
+    bottom: 150px;
+    /* text-align: center;
+    justify-content: center; */
+    z-index: 1;
+}
+ #prime , .chose-photo img{
+    /* position: relative; */
+    border-radius: 8px;
+
+}
+/* .prime{
+    display: grid;
+    grid-template-columns: repeat('2 1fr');
+} */
+.places{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#prime{
+   
+    display: block;
+   /* display: grid; */
+   /* grid-template-columns: repeat(2,1fr); */
+   /* grid-template-rows: repeat(3, 2fr); */
+}
+ .first-prime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    height: auto; }
+
+/* ******************************************** */
+.we-best img{
+    width:5rem;
+}
+
+.we-best{
+    
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+   cursor: pointer;
+}
+
+.we-best p{
+    margin: 10px 0;
+}
+.hotel-name{
+    border-radius: 8px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+
+background: rgba(251, 181, 99, 0.05);
+width: 543px;
+height: 214px;
+text-align: left;
+padding: 1rem;
+
+
+}
+
+.hotel-service{
+
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+width: 543px;
+height: 214px;
+text-align: left;
+padding: 1rem;
+
+}
+
+.hotel-middle-style{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2rem 0;
+  
 }
 
 @media screen and (max-width:600px) {
@@ -203,8 +327,16 @@ cursor: pointer;
       
     
     }
-    
+    .first-prime{
+        display: block;
+    }
+    .we-best{
+        display: block;
+    }
 
+    .hotel-middle-style{
+        display: block;
+    }
     #bars, .fa-solid{
         display: block;
     }
