@@ -523,6 +523,7 @@ hr{
         display: grid;
         grid-template-columns: 50% 50%;
         gap: 95px;
+        margin-bottom: 30px;
       
     
     }
@@ -531,11 +532,37 @@ hr{
     text-align: center;
     align-items: center;
     width: 100%;
-}
-.openion-input-style{
-    display: block;
+    margin-top: 30px;
 }
 
+.bannar-title{
+   width: 100%;
+font-size: 1.6rem;
+padding-top: 10px;
+}
+.bannar-details{
+    padding: 10px;
+    line-height: 15px;
+
+}
+.bannar, .openion-input-style input{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+   
+}
+
+.openion-input-style, input,select {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    /* padding: 55px; */
+    
+}
 
 
 .form{
@@ -543,7 +570,11 @@ hr{
     flex-direction: column;
 
 }
-
+.hotel-name{width: 100%;}
+.hotel-middle-style{
+    width: 100%;
+}
+.hotel-service{width: 100%;}
 .select-spot img{
     width: 100%;
     width: 70%;
@@ -563,23 +594,13 @@ hr{
 }
 
 img{width: 100%;}
+.text-details-style{
+    width: 100%;
+}
 .input-style{
     width: 100%;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .first-prime{
         display: block;
