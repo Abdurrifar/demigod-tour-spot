@@ -552,6 +552,17 @@ hr{
     display: block;
    
 }
+.place-details{
+    text-align: center;
+    padding: 15px;
+
+}
+.favourite-place img {
+    margin-top: 25px;
+    width: 100%;
+}
+
+img{width: 100%;}
 .input-style{
     width: 100%;
     text-align: center;
