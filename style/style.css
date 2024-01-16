@@ -3,7 +3,7 @@
 body{
    
     background: #FFF;
-    height: 5500px;
+    
 
 }
 * {font-family: 'Mulish', sans-serif;
@@ -113,7 +113,7 @@ margin-left: 10px;
 .bannar{
  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
    
-    background: size 1170px;
+   width: 100%;
     background-repeat: no-repeat;
     
     border-radius: 16px;
@@ -147,11 +147,7 @@ margin: 14px 0 34px 0;
     display: flex;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.30);
-
-
-    display: inline-flex;
     padding: .8rem;
-    align-items: flex-start;
     gap: 1.3rem;
 }
 .option{
@@ -253,9 +249,15 @@ cursor: pointer;
 #prime{
    
     display: block;
+    margin-top: 50px;
    /* display: grid; */
    /* grid-template-columns: repeat(2,1fr); */
    /* grid-template-rows: repeat(3, 2fr); */
+}
+#prime img:hover{
+transform: rotate(5deg);
+transition:.5s ease-in;
+cursor: pointer;
 }
  .first-prime{
     display: flex;
@@ -513,7 +515,7 @@ hr{
 
 
 }
-.foo
+
 @media screen and (max-width:600px) {
 
     .title-style{
@@ -524,6 +526,50 @@ hr{
       
     
     }
+.bannar{
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.openion-input-style{
+    display: block;
+}
+
+
+
+.form{
+    display: block;
+    flex-direction: column;
+
+}
+
+.select-spot img{
+    width: 100%;
+    width: 70%;
+}
+.favourite-place{
+    display: block;
+   
+}
+.input-style{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .first-prime{
         display: block;
     }
@@ -539,6 +585,11 @@ hr{
     }
     ul{
         display: none;
+    }
+
+    footer{
+        width: 100%;
+        text-align: center;
     }
     
     
