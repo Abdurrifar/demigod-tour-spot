@@ -1,8 +1,9 @@
 /*shared style ****************************** */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
 body{
-   height: 3500px;
+   
     background: #FFF;
+    height: 5500px;
 
 }
 * {font-family: 'Mulish', sans-serif;
@@ -317,6 +318,202 @@ padding: 1rem;
   
 }
 
+.our-deals{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+   cursor: pointer;
+}
+
+.style{
+    background-image: url('/Images/coxxx.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid rgb(18, 18, 218);
+}
+.style h4{
+color: #FF5400;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 15px 0;
+}
+
+.details-style{
+
+border-radius: 8px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 289px;
+padding:10px 25px;
+text-align: left;
+position: relative;
+top: 80px;
+left: 220px;
+
+
+}
+.details-style h3{
+color: #131318;
+font-size: 1.2rem;
+font-weight: 800;
+margin: 15px auto;
+}
+
+.details-style p{
+color: #5A5A5D;
+margin: 15px 0;
+line-height: 20px;
+
+}
+
+.fa-clock, .fa-person-swimming, .fa-location-dot{
+    color:#FF5400;
+    height: 20px;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 25px;
+  
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    gap: 60px;
+}
+.input-style {
+    display: block;
+  
+    width: 424px;
+    height: 350px;
+    border-radius: 8px;
+border: 1px solid #FF5400;
+text-align: center;
+}
+.input-style h3{
+    color: #131318;
+font-size: 20px;
+font-weight: 800;
+margin-top: 16px;
+}
+.input-style p{
+    margin-bottom: 16px;
+}
+.input-style input{
+    width: 363px;
+    height: 42px;
+    border-radius: 4px;
+background: rgba(19, 19, 24, 0.05);
+cursor: pointer;
+margin-bottom: 16px;
+
+}
+.input-style input:focus{
+    color: aqua;
+    border-color: yellowgreen;
+}
+
+.input-style button{
+    width: 366px ;
+    height: 42px;
+}
+
+.input-style placeholer{
+    color: rgba(19, 19, 24, 0.30);
+font-size: .8rem;
+font-weight: 400;
+}
+.select-spot{
+    background: url('/Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+   background-size: cover;
+   width: 692px;
+   height: 350px;
+   border-radius: 8px;
+
+}
+
+.select-spot button{
+    display: block;
+    position: relative;
+    bottom: -224px;
+    right: -230px;
+    transform: rotate(-28deg);
+    width: 210px;
+    padding: 25px;
+    
+}
+.select-spot h3{
+    color: #FFF;
+    font-size:1.3rem;
+    font-weight: 800;
+    line-height: 0;
+}
+
+
+
+.footer{
+    display: block;
+   justify-content: center;
+text-align: center;
+    width: 1440px;
+    width: 120%;
+   height: 402px;
+   background: rgba(19, 19, 24, 0.05);
+   
+  line-height: 50px;
+   
+
+
+
+}
+.footer-icon i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.text-details-style span{
+    color: red;
+}
+.footer-style{
+    display: flex;
+}
+.footer-style img{
+    margin: 0;
+    padding: 0;
+}
+.last{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+   margin-top: 35px;
+}
+.last img{
+    height: 35px;
+    width: 35px;
+    color: yellow;
+}
+.titlee{
+    color: #FF5400;
+    font-weight: 800;
+    margin-left: 10px;
+}
+hr{
+    background: rgba(19, 19, 24, 0.05);
+
+
+}
+.foo
 @media screen and (max-width:600px) {
 
     .title-style{
