@@ -435,6 +435,11 @@ margin-bottom: 16px;
 font-size: .8rem;
 font-weight: 400;
 }
+
+.input-style input{
+    border: none;
+
+}
 .select-spot{
     background: url('/Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
@@ -534,6 +539,9 @@ hr{
     width: 100%;
     margin-top: 30px;
 }
+ul{
+    display: none;
+}
 
 .bannar-title{
    width: 100%;
@@ -565,11 +573,7 @@ padding-top: 10px;
 }
 
 
-.form{
-    display: block;
-    flex-direction: column;
 
-}
 .hotel-name{width: 100%;}
 .hotel-middle-style{
     width: 100%;
@@ -582,6 +586,9 @@ padding-top: 10px;
 .favourite-place{
     display: block;
    
+}
+.places .text-title-style{
+    font-size: 1.4rem;
 }
 .place-details{
     text-align: center;
@@ -597,9 +604,23 @@ img{width: 100%;}
 .text-details-style{
     width: 100%;
 }
+
+.form{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+ 
+}
 .input-style{
     width: 100%;
-    text-align: center;
+}
+.input-style input{
+    width: 80%;
+    text-align: left;
+
+}
+.input-style button {
+    width: 84%;
 }
 
     .first-prime{
@@ -615,13 +636,54 @@ img{width: 100%;}
     #bars, .fa-solid{
         display: block;
     }
-    ul{
-        display: none;
+   
+    .style{
+        width: 100%;
+    }
+    .style img{
+        border-radius: 40px;
+        height: 150%;
+        width: 100%;
+    }
+    .details-style{
+        width: 100%;
+        width: 70%;
+        height: 70%;
+        border-radius: 18px;
+        top: 110px;
+        left: 1px;
+
+    }
+    .icon-style{
+        display: flex;
+        padding: 0;
+    }
+    .select-spot {
+        width: 100%;
+    }
+    .select-spot button{
+        left: 73px;
+        border-radius: 10px;
+        margin-top: 20px;
     }
 
     footer{
-        width: 100%;
+        width: 84%;
         text-align: center;
+        margin-left: 0;
+       
+        
+
+    }
+    .footer-style{
+        margin-bottom: 35px;
+    }
+    .footer-style, .text-details-style {
+        line-height: 15px;
+        margin-bottom: 20px;    
+    }
+    hr{
+        margin: 15px 0 25px 0;  
     }
     
     
